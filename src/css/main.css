@@ -1,12 +1,15 @@
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+	margin: 0;
 }
 
-.google_play, .apple_logo {
+.google_play,
+.apple_logo {
 	width: 25px;
 	height: 30px;
 }
+
+/*"This was changing the size some images"*/
