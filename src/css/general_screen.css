@@ -1,0 +1,39 @@
+.general_section {
+  background: url(../img/bg-first_section.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+.general_screen {
+  max-width: 1114px;
+  margin: 0 auto;
+  padding-top: 61px;
+}
+
+.general_block {
+  max-width: 546px;
+}
+
+.logo {
+  max-width: 110px;
+}
+
+.title {
+  color: var(--color_titles);
+  font-family: var(--font_lato);
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  padding-top: 132px;
+  line-height: 48px;
+}
+
+.main_description {
+  font-size: 18px;
+  color: var(--color_paragraph);
+  font-family: var(--font_lato);
+  width: 80%;
+  padding-top: 25px;
+  line-height: 26px;
+  letter-spacing: 0.14px;
+}

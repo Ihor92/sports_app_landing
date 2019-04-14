@@ -1,0 +1,63 @@
+.apple_vs_google {
+  display: flex;
+  justify-content: space-between;
+  padding: 52px 0 154px;
+  max-width: 348px;
+}
+
+.button_apple,
+.button_google-play {
+  background-color: var(--color_black);
+  color: var(--color_white);
+  font-family: var(--font_roboto);
+  max-width: 156px;
+  text-decoration: none;
+  border-radius: 7px;
+  border: transparent;
+
+}
+
+.link_download {
+  display: flex;
+  text-decoration: none;
+  padding: 6px 12px 5px 11px;
+}
+
+.google_img,
+.apple_img {
+  width: 25px;
+  height: 30px;
+}
+
+.apple_img,
+.google_img {
+  margin-right: 12.5px;
+}
+
+.download_google,
+.download_apple {
+  font-family: var(--font_roboto);
+}
+
+.download_google {
+  font-size: 11px;
+}
+
+.download_apple {
+  font-size: 10px;
+}
+
+.text_apple {
+  font-size: 21px;
+}
+
+.text_google {
+  font-size: 17px;
+}
+
+.text_apple,
+.download_apple,
+.download_google,
+.text_google {
+  color: var(--color_white);
+}

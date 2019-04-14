@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@import "general_screen.css";
+@import "announcement_football_app.css";
+@import "user_experience_interface.css";
+
+@import "reset.css";
+@import "buttons.css";
+
+:root {
+  --color_white: #fff;
+  --color_blue: #00adee;
+
+  --color_black: #000;
+  --color_titles: #333;
+  --color_paragraph: #4f4f4f;
+  
+  --font_lato: "Lato", sans-serif;
+  --font_roboto: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+}
+
+.subtitles {
+  font-family: var(--font_lato);
+  font-weight: bold;
+  color: var(--color_titles);
+  font-size: 28px;
+  line-height: 37px;
+  padding-top: 26px;
+}
