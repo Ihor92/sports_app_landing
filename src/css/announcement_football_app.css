@@ -157,6 +157,7 @@ input:checked[type="checkbox"]::before {
 
 .what_it_does {
   color: var(--color_blue);
+  font-family: var(--font_lato);
   line-height: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -166,6 +167,8 @@ input:checked[type="checkbox"]::before {
   text-decoration: none;
   padding-top: 25px;
   color: var(--color_blue);
+  font-family: var(--font_lato);
+  font-weight: bold;
   line-height: 21px;
   display: block;
   letter-spacing: 1px;
