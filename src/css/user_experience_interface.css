@@ -16,6 +16,7 @@
   padding-top: 213px;
   display: block;
   color: var(--color_blue);
+  font-family: var(--font_lato);
   line-height: 21px;
   font-weight: bold;
   text-transform: uppercase;
@@ -38,6 +39,8 @@
   text-decoration: none;
   padding-top: 56px;
   color: var(--color_blue);
+  font-family: var(--font_lato);
+  font-weight: bold;
   line-height: 21px;
   display: block;
   letter-spacing: 1px;
@@ -154,7 +157,6 @@
   background: var(--color_white);
   border: transparent;
   border-radius: 50%;
-  /*border: transparent;*/
 }
 
 .phone-user_friendly {
