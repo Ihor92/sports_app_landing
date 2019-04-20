@@ -8,11 +8,9 @@
 
 .screen_football_app {
   max-width: 1066px;
-  margin: 12px auto 0;
+  margin: 11px auto 0;
   display: flex;
   justify-content: space-between;
-  /*background-image: linear-gradient(270deg, #fff,rgba(255, 255, 255, 0)),
-  rgba(255, 255, 255, 0.5);*/
 }
 
 .football_app {
@@ -74,10 +72,15 @@
   position: relative;
 }
 
-.chelsea_img {
+.chelsea-fc__img {
   position: absolute;
   bottom: 35px;
   left: 58px;
+}
+
+.arsenal-fc__img {
+  width: 71px;
+  height: 84px;
 }
 
 .preview_match_footer {
@@ -169,7 +172,6 @@ input:checked[type="checkbox"]::before {
   color: var(--color_blue);
   font-family: var(--font_lato);
   font-weight: bold;
-  line-height: 21px;
+  line-height: 18px;
   display: block;
-  letter-spacing: 1px;
 }

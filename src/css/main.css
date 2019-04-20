@@ -15,6 +15,7 @@
   --color_black: #000;
   --color_titles: #333;
   --color_paragraph: #4f4f4f;
+  --box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   
   --font_lato: "Lato", sans-serif;
   --font_roboto: "Roboto", sans-serif;
@@ -29,6 +30,12 @@ body {
   max-width: 1440px;
   min-width: 320px;
 }
+
+/*.general_section,
+.section_football_app,
+.user_experience_interface {
+  margin-left: 15px;
+}*/
 
 .subtitles {
   font-family: var(--font_lato);

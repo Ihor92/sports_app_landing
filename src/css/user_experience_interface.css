@@ -2,6 +2,7 @@
   display: flex;
   max-width: 1116px;
   margin: 0 auto 171px;
+  position: relative;
 }
 
 .user_interface__block {
@@ -9,7 +10,9 @@
 }
 
 .block-circle {
-  position: relative;
+  position: absolute;
+  top: -49px;
+  left: 470px;
 }
 
 .get-started {
@@ -47,9 +50,9 @@
 }
 
 .main_circle {
-  position: absolute;
-  top: -50px;
-  left: -19px;
+  position: relative;
+  /*top: -50px;
+  left: 154px;*/
 }
 
 .first_circle {
@@ -80,8 +83,7 @@
   position: absolute;
   top: 456px;
   left: 40px;
-  /*box-shadow*/
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+  box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
 }
@@ -107,7 +109,7 @@
 .missed_notifications {
   width: 91px;
   height: 91px;
-  /*box-shadow*/
+  box-shadow: var(--box-shadow);
   background: var(--color_white);
   border-radius: 50%;
   bottom: 12px;
@@ -131,7 +133,7 @@
   position: absolute;
   top: 403px;
   right: 121px;
-  /*box-shadow*/
+  box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
 }
