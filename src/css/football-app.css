@@ -33,14 +33,11 @@
 /*Information in span*/
 .time_match {
   font-family: var(--font_lato);
+  color: var(--color_paragraph);
   font-weight: bold;
   line-height: 22px;
-
-  padding-top: 27px;
-
   letter-spacing: 0.5px;
-
-  color: var(--color_paragraph);
+  padding-top: 27px;
 }
 
 .teams {
@@ -71,7 +68,7 @@
 
   border-radius: 4px;
   background: var(--color_white);
-  box-shadow: -22.04px, 23.88px, 48.98px, rgba(0, 0, 0, .5);
+  box-shadow: -22.04px, 23.88px, 48.98px, rgba(0, 0, 0, 0.5);
 }
 
 .preview_match_info {
@@ -101,107 +98,107 @@
 }
 
 /*checkbox*/
-input[type='checkbox'] {
+input[type="checkbox"] {
   position: relative;
 
   width: 27px;
   height: 12px;
   margin-left: 36px;
 
-  transition: .5s;
+  transition: 0.5s;
   transform: translateY(4px);
 
   border-radius: 50px;
   outline: none;
   background: #c6c6c6;
-  box-shadow: inset 0 0 5px, rgba(0,0,0, .2);
+  box-shadow: inset 0 0 5px, rgba(0,0,0, 0.2);
 
   -webkit-appearance: none;
   -moz-appearance: none;
 }
 
-input:checked[type='checkbox'] {
+input:checked[type="checkbox"] {
   background: #02a9f4;
 }
 
-input[type='checkbox']::before {
-    position: absolute;
-    top: -5px;
-    left: -8px;
+input[type="checkbox"]::before {
+  position: absolute;
+  top: -5px;
+  left: -8px;
 
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 
-    content: '';
-    transition: .5s;
-    transform: scale(1.1);
+  content: " ";
+  transition: 0.5s;
+  transform: scale(1.1);
 
-    border-radius: 50%;
-    background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0, .2);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.2);
 }
 
-input:checked[type='checkbox']::before {
-    left: 14px;
+input:checked[type="checkbox"]::before {
+  left: 14px;
 }
 /*-----------checkbox end-----------*/
 
 .notifications {
-    font-family: var(--font_lato);
-    font-size: 19px;
-    line-height: 25px;
+  font-family: var(--font_lato);
+  font-size: 19px;
+  line-height: 25px;
 
-    padding-left: 15px;
+  padding-left: 15px;
 
-    color: var(--color_paragraph);
+  color: var(--color_paragraph);
 }
 
 .arsenal_vs_chelsea {
-    position: absolute;
-    top: 294px;
-    left: 83px;
+  position: absolute;
+  top: 294px;
+  left: 83px;
 }
 
 .description_match-block {
-    margin-top: 130px;
+  margin-top: 130px;
 }
 
 .description_match-text {
-    font-family: var(--font_lato);
-    line-height: 23px;
+  font-family: var(--font_lato);
+  line-height: 23px;
 
-    max-width: 90%;
-    padding-top: 25px;
+  max-width: 90%;
+  padding-top: 25px;
 
-    letter-spacing: .18px;
+  letter-spacing: 0.18px;
 }
 
 .description__text-more {
-    padding-top: 23px;
+  padding-top: 23px;
 
-    letter-spacing: .14px;
+  letter-spacing: 0.14px;
 }
 
 .what_it_does {
-    font-family: var(--font_lato);
-    font-weight: bold;
-    line-height: 24px;
+  font-family: var(--font_lato);
+  font-weight: bold;
+  line-height: 24px;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    color: var(--color_blue);
+  color: var(--color_blue);
 }
 
 .football-app__more {
-    font-family: var(--font_lato);
-    font-weight: bold;
-    line-height: 18px;
+  font-family: var(--font_lato);
+  font-weight: bold;
+  line-height: 18px;
 
-    display: block;
+  display: block;
 
-    padding-top: 25px;
+  padding-top: 25px;
 
-    text-decoration: none;
+  text-decoration: none;
 
-    color: var(--color_blue);
+  color: var(--color_blue);
 }
