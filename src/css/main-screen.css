@@ -1,17 +1,17 @@
-.general_section {
+.main-section {
   background: url(../img/bg-first_section.png);
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
-.general_screen {
+.main-screen {
   max-width: 1114px;
   margin: 0 auto;
   padding-top: 61px;
 }
 
-.general_block {
+.main-block {
   max-width: 546px;
 }
 
@@ -29,7 +29,7 @@
   line-height: 48px;
 }
 
-.main_description {
+.main-description {
   font-size: 18px;
   color: var(--color_paragraph);
   font-family: var(--font_lato);

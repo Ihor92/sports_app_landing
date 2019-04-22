@@ -1,32 +1,38 @@
 .apple_vs_google {
   display: flex;
-  justify-content: space-between;
+
+  max-width: 344px;
   padding: 52px 0 154px;
-  max-width: 348px;
+
+  justify-content: space-between;
 }
 
 .button_apple,
 .button_google-play {
-  background-color: var(--color_black);
-  color: var(--color_white);
   font-family: var(--font_roboto);
-  max-width: 156px;
-  text-decoration: none;
-  border-radius: 7px;
-  border: transparent;
 
+  max-width: 156px;
+
+  text-decoration: none;
+
+  color: var(--color_white);
+  border: transparent;
+  border-radius: 7px;
+  background-color: var(--color_black);
 }
 
 .link_download {
   display: flex;
-  text-decoration: none;
+
   padding: 6px 12px 5px 11px;
+
+  text-decoration: none;
 }
 
 .google_img,
 .apple_img {
-  width: 25px;
-  height: 30px;
+  width: 27px;
+  height: 37px;
 }
 
 .apple_img,

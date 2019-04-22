@@ -1,0 +1,38 @@
+.our-users__block {
+  display: flex;
+  width: 1376px;
+  margin: 0 auto;
+}
+
+.our-users__subtitle {
+  text-align: center;
+  /*почему не перебивает padding top?*/
+  padding: 82px 0 63px;
+}
+
+.carousel-list {
+  max-width: 309px;
+  height: 161px;
+  border: 1px solid var(--color-karusel__border);
+  border-radius: 4px;
+  padding: 15px 13px 0 17px;
+  margin: 0 17.5px;
+}
+
+.carousel__social-network {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font_lato);
+}
+
+.carousel__user-details {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.carousel__name {
+  padding-left: 11px;
+  font-weight: bold;
+  color: var(--color_titles);
+}
