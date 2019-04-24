@@ -1,0 +1,29 @@
+.join-app {
+  background: url(../img/bg-for_last_section.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1278px;
+}
+
+.join-app__block {
+  padding-top: 105px;
+  max-width: 535px;
+
+}
+
+.join-app__text {
+  font-family: var(--font_lato);
+  color: var(--color_paragraph);
+  line-height: 25px;
+  margin-top: 35px;
+}
+
+.btn__apple-google {
+  display: flex;
+
+  max-width: 344px;
+  padding: 38px 0 69px;
+
+  justify-content: space-between;
+}

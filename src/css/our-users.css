@@ -1,3 +1,7 @@
+.our-user {
+  margin-top: 63px;
+}
+
 .our-users__block {
   display: flex;
   width: 1376px;
@@ -5,9 +9,14 @@
 }
 
 .our-users__subtitle {
+  font-family: var(--font_lato);
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 37px;
+
+  color: var(--color_titles);
   text-align: center;
-  /*почему не перебивает padding top?*/
-  padding: 82px 0 63px;
+  padding: 0 0 63px;
 }
 
 .carousel-list {
@@ -19,7 +28,7 @@
   margin: 0 17.5px;
 }
 
-.carousel__social-network {
+.carousel__network {
   display: flex;
   justify-content: space-between;
   font-family: var(--font_lato);
