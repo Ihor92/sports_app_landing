@@ -9,12 +9,6 @@
   width: 490px;
 }
 
-.block-circle {
-  position: absolute;
-  top: -49px;
-  left: 470px;
-}
-
 .get-started {
   padding-top: 213px;
   display: block;
@@ -49,18 +43,21 @@
   letter-spacing: 1px;
 }
 
+.block-circle {
+  position: absolute;
+  top: -49px;
+  left: 470px;
+}
+
 .main_circle {
   position: relative;
-  /*top: -50px;
-  left: 154px;*/
 }
 
 .first_circle {
   width: 800px;
   height: 800px;
-  border: 0.5px solid var(--color_blue);
+  border: 0.5px solid #00adee36;
   border-radius: 50%;
-  display: flex;
 }
 
 .second_circle {
@@ -68,27 +65,45 @@
   height: 600px;
   border: 2px dashed var(--color_blue);
   border-radius: 50%;
-  margin: auto;
-  display: flex;
-  justify-content: center center;
-  position: relative;
+  position: absolute;
+  left: 103px;
+  top: 100px;
 }
 
-.button_rotation {
+.second_circle__rotate {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: absolute;
+  left: 103px;
+  top: 100px;
+  animation: dot-rotate 30s infinite linear;
+}
+
+@keyframes dot-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dot-rotate {
   width: 30px;
   height: 30px;
   border: transparent;
   background: var(--color_white);
   border-radius: 50%;
   position: absolute;
-  top: 456px;
-  left: 40px;
+  top: 455px;
+  left: 38px;
   box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
 }
 
-.button_rotation__blue {
+.dot-rotate__blue {
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -104,6 +119,9 @@
   border: 2px dashed var(--color_blue);
   border-radius: 50%;
   margin: auto;
+  position: absolute;
+  top: 200px;
+  left: 200px;
 }
 
 .missed_notifications {
@@ -112,30 +130,21 @@
   box-shadow: var(--box-shadow);
   background: var(--color_white);
   border-radius: 50%;
-  bottom: 12px;
-  left: 30px;
+  position: absolute;
+  bottom: 316px;
+  left: 31px;
+  z-index: 100;
   display: flex;
-  align-items: center;
-  position: relative;
 }
 
-.missed_notifications__img,
-.open_app__black-img {
+.missed_notifications__img {
   margin: 0 auto;
 }
 
-.open_app {
-  width: 91px;
-  height: 91px;
-  background: var(--color_white);
-  border-radius: 50%;
-  border: transparent;
-  position: absolute;
-  top: 403px;
-  right: 121px;
-  box-shadow: var(--box-shadow);
+.missed_notifications__img {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .sum_notifications {
@@ -144,15 +153,35 @@
   border-radius: 50%;
   background: var(--color_blue);
   color: var(--color_white);
+  position: relative;
+  left: 80px;
+  top: 10px;
+  z-index: 200;
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 23px;
-  left: 50px;
 }
 
 .sum_notifications__number {
   margin: 0 auto;
+}
+
+.open-app {
+  width: 91px;
+  height: 91px;
+  background: var(--color_white);
+  border-radius: 50%;
+  border: transparent;
+  position: absolute;
+  top: 503px;
+  right: 220px;
+  z-index: 200;
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+}
+
+.open-app__link {
+  margin: auto;
 }
 
 .user_experience__notification {
@@ -163,6 +192,6 @@
 
 .phone-user_friendly {
   position: absolute;
-  top: 21px;
-  left: 105px;
+  left: 208px;
+  bottom: 64px;
 }

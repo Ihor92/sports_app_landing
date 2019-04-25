@@ -2,7 +2,7 @@
   background: url(../img/bg-first_section.png);
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 .main-screen {

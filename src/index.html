@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <title>Sport app landing</title>
-      <link rel="stylesheet" href="css/main.css">
+    <meta charset="UTF-8">
+    <title>Sport app landing</title>
+
+    <!-- <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+
+    <link rel="stylesheet" type="text/css" href="../animate.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
     <section class="main-section">
@@ -75,7 +85,7 @@
           <h2 class="subtitles">An Enhanced Football Experience</h2>
           <p class="description_match-text">The Guardian Live Scores app is your go to app for live scores and watching Premier League goals… Get in there, what a result!</p>
           <p class="description_match-text description__text-more">As well as videos of all the goals, you can watch match highlights, check out the latest scores and results and stay bang-up-to-date with the big football stories from The Guardian publication.</p>
-          <a href="javascript:void(0)" class="football-app__more">Learn more</a>
+          <a href="javascript:void(0)" class="football-app__more wow slideInRight">Learn more</a>
         </div>
       </div>
     </section>
@@ -86,31 +96,34 @@
         <h2 class="subtitles">User-friendly Interface</h2>
         <p class="user_interface__text">The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.</p>
         <p class="user_interface__text user_interface__text-more">So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.</p>
-        <a href="javascript:void(0)" class="football_app__learn-more">Learn more</a>
+        <a href="javascript:void(0)" class="football_app__learn-more wow slideInLeft">Learn more</a>
       </div>
+
       <div class="block-circle">
         <div class="main_circle">
-          <div class="first_circle">
-            <div class="second_circle">
-              <div class="button_rotation">
-                <div class="button_rotation__blue">
-
-                </div>
-              </div>
-              <img src="img/Phone-User_friendly.png" alt="Result match Wigan vs Liverpool" class="phone-user_friendly">
-              <div class="third_circle">
-                <div class="missed_notifications">
-                  <img src="img/Icons/baseline-notifications_active__black.svg" alt="" class="missed_notifications__img">
-                  <div class="sum_notifications">
-                    <span class="sum_notifications__number">7</span>
-                  </div>
-                </div>
-              </div>
-              <div class="open_app">
-                <img class="open_app__black-img" src="img/Icons/add_to_home_screen__black.svg" alt="">
-              </div>
+          <div class="first_circle"></div>
+          <div class="second_circle"></div>
+          <!-- block for rotation -->
+          <div class="second_circle__rotate">
+            <div class="dot-rotate">
+              <div class="dot-rotate__blue"></div>
             </div>
           </div>
+
+          <div class="third_circle">
+            <div class="missed_notifications">
+              <img src="img/Icons/baseline-notifications_active__black.svg" alt="" class="missed_notifications__img">
+            </div>
+            <div class="sum_notifications">
+              <span class="sum_notifications__number">7</span>
+            </div>
+          </div>
+          <div class="open-app">
+            <a href="javascript: void(0)" class="open-app__link">
+              <img src="img/Icons/add_to_home_screen__black.svg" alt="">
+            </a>
+          </div>
+          <img src="img/Phone-User_friendly.png" alt="Result match Wigan vs Liverpool" class="phone-user_friendly">
         </div>
       </div>
     </section>
@@ -119,39 +132,39 @@
     <section class="our-features">
       <h2 class="our-features__subtitles">Features That Will Tailor Your Experience</h2>
       <ul class="our-features__block">
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpRight">
           <img src="img/Icons/baseline-ondemand_video.svg" alt="Video">
           <p class="our-features__paragraph">Video highlights for every Premier League and English Football League game</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow fadeInDown">
           <img src="img/Icons/baseline-notifications.svg" alt="Notifications for your teams">
           <p class="our-features__paragraph">Notifications for your teams, including in-game goal clips and Premier League match highlights for Sky TV subscribers with Guardian.</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpLeft">
           <img src="img/Icons/hd-icon.svg" alt="Bell">
           <p class="our-features__paragraph">Brand new video section including dedicated areas for your chosen team, trending video, Premier League, Football league and other major leagues</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpRight">
           <img src="img/Icons/flag-icon.svg" alt="Flag">
           <p class="our-features__paragraph">Match pages showing live scores, commentary, team line-ups and enhanced match stats to keep you up-to-date on all the action</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow fadeInDown">
           <img src="img/Icons/baseline-style.svg" alt="Picture in picture">
           <p class="our-features__paragraph">The new picture in picture video mode means you can watch goals, manager interviews and more whilst using other areas of the app – so you don’t need to miss any of the action</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpLeft">
           <img src="img/Icons/baseline-poll.svg" alt="Live updated league tables">
           <p class="our-features__paragraph">Live updated league tables including all the domestic, European and major leagues and tournaments</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpRight">
           <img src="img/Icons/add_to_home_screen.svg" alt="The Guardian News vidiprinter">
           <p class="our-features__paragraph">The Guardian News Vidiprinter. Follow the goals as they go in with our new and improved Vidiprinter</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow fadeInDown">
           <img src="img/Icons/baseline-people.svg" alt="People">
           <p class="our-features__paragraph">Match reports, previews and a dedicated news section</p>
         </li>
-        <li class="our-features__list">
+        <li class="our-features__list wow rotateInUpLeft">
           <img src="img/Icons/setting.svg" alt="Super-fan status">
           <p class="our-features__paragraph">And you can achieve super-fan status by personalising your home page with up-to-the-minute information on your team</p>
         </li>
@@ -160,9 +173,10 @@
 
     <section class="our-user">
       <h2 class="our-users__subtitle">What Our Users Say</h2>
-      <ul class="our-users__block">
+      <div class="our-users__block" data-slick="{slidesToShow: 4, slidesToScroll: 4}" id="carousel">
+
         <!-- Sarah Udoma -->
-        <li class="carousel-list">
+        <div class="carousel-list">
           <div class="carousel__network">
             <div class="carousel__user-details">
               <img src="img/Karusel/Sarah-Udoma.png" alt="Sarah Udoma">
@@ -171,16 +185,16 @@
               </div>
             </div>
             <div>
-              <a href="https://twitter.com/"><img src="img/Twitter.png" alt="Twitter"></a>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
             </div>
           </div>
           <div>
             <p>This app has videos for other premier league teams who play and it also gives me nofications when my favourite team plays</p>
           </div>
-        </li>
+        </div>
 
         <!-- Noah Jackson -->
-        <li class="carousel-list">
+        <div class="carousel-list">
           <div class="carousel__network">
             <div class="carousel__user-details">
               <img src="img/Karusel/Noah-Jackson.png" alt="Noah Jackson">
@@ -189,16 +203,16 @@
               </div>
             </div>
             <div>
-              <a href="https://twitter.com/"><img src="img/Twitter.png" alt="Twitter"></a>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
             </div>
           </div>
           <div>
             <p>I use this app every day and it's a great way to keep up to date with what's going on in football. It's a shame it won't rotate into landscape mode like its main competitor</p>
           </div>
-        </li>
+        </div>
 
         <!-- Darren Wilson -->
-        <li class="carousel-list">
+        <div class="carousel-list">
           <div class="carousel__network">
             <div class="carousel__user-details">
               <img src="img/Karusel/Darren-Wilson.png" alt="Darren Wilson">
@@ -207,16 +221,16 @@
               </div>
             </div>
             <div>
-              <a href="https://twitter.com/"><img src="img/Twitter.png" alt="Twitter"></a>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
             </div>
           </div>
           <div>
             <p>Good for scores and commentary but the team lineups have stopped working.</p>
           </div>
-        </li>
+        </div>
 
         <!-- Michaeli Akinuli -->
-        <li class="carousel-list">
+        <div class="carousel-list">
           <div class="carousel__network">
             <div class="carousel__user-details">
               <img src="img/Karusel/Michaeli-Akinuli.png" alt="Michaeli Akinuli">
@@ -225,17 +239,52 @@
               </div>
             </div>
             <div>
-              <a href="https://twitter.com/"><img src="img/Twitter.png" alt="Twitter"></a>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
             </div>
           </div>
           <div>
             <p>Good for watching the goals and great for highlights instead of waiting till 10:30 before you can watch highlights on March of the day also no need of sky go</p>
           </div>
-        </li>
-      </ul>
+        </div>
+        <!-- Darren Wilson -->
+        <div class="carousel-list">
+          <div class="carousel__network">
+            <div class="carousel__user-details">
+              <img src="img/Karusel/Darren-Wilson.png" alt="Darren Wilson">
+              <div class="carousel__name">
+                Darren Wilson
+              </div>
+            </div>
+            <div>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
+            </div>
+          </div>
+          <div>
+            <p>Good for scores and commentary but the team lineups have stopped working.</p>
+          </div>
+        </div>
+        <!-- Darren Wilson -->
+        <div class="carousel-list">
+          <div class="carousel__network">
+            <div class="carousel__user-details">
+              <img src="img/Karusel/Darren-Wilson.png" alt="Darren Wilson">
+              <div class="carousel__name">
+                Darren Wilson
+              </div>
+            </div>
+            <div>
+              <a href="https://twitter.com/"><img src="img/Twit.svg" alt="Twitter"></a>
+            </div>
+          </div>
+          <div>
+            <p>Good for scores and commentary but the team lineups have stopped working.</p>
+          </div>
+        </div>
+      </div>
+
     </section>
 
-    <section class="our-partners">
+    <section class="our-partners wow zoomIn">
       <h2 class="our-partners__subtitle">We have been featured in</h2>
       <ul class="our-partners__list">
         <li class="our-partners__label">
@@ -296,33 +345,66 @@
     </section>
 
     <footer class="footer">
-      <div class="logo">
-        <a href="javascript:void(0)">
-          <img src="img/logo-footer.svg" alt="Logo site">
-        </a>
-      </div>
-      <nav class="footer-nav">
-        <ul class="footer-list">
-          <li><a href="javascript: void(0)">Download</a></li>
-          <li><a href="javascript: void(0)">Support</a></li>
-          <li><a href="javascript: void(0)">Developers</a></li>
-          <li><a href="javascript: void(0)">Privacy</a></li>
-        </ul>
-      </nav>
+      <div class="footer__wrap">
+        <div class="logo">
+          <a href="javascript:void(0)">
+            <img src="img/logo-footer.svg" alt="Logo site">
+          </a>
+        </div>
 
-      <div>
-        <ul>
-          <li>
-            <a href="https://twitter.com"><img src="img/Twitter.png" alt="Twitter"></a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/"><img src="img/Instagram.png" alt="Instagram"></a>
-          </li>
-        </ul>
+        <nav class="footer-nav wow flipInX">
+          <ul class="footer__nav-list">
+            <li>
+              <a class="footer__nav-links" href="javascript: void(0)">Download</a>
+            </li>
+            <li>
+              <a class="footer__nav-links" href="javascript: void(0)">Support</a>
+            </li>
+            <li>
+              <a class="footer__nav-links" href="javascript: void(0)">Developers</a>
+            </li>
+            <li>
+              <a class="footer__nav-links" href="javascript: void(0)">Privacy</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div>
+          <ul class="footer__list-links">
+            <li class="footer__network">
+              <a href="https://twitter.com"><img src="img/Twit.svg" alt="Twitter"></a>
+            </li>
+            <li class="footer__network">
+              <a href="https://www.facebook.com/"><img src="img/face.svg" alt="Facebook"></a>
+            </li>
+            <li class="footer__network">
+              <a href="https://www.instagram.com/"><img src="img/Inst.svg" alt="Instagram"></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+
+      <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+      <!-- <script type="text/javascript" src="../slick/slick.js"></script> -->
+      <script type="text/javascript" src="index-js/slick.js"></script>
+      <script>
+        $("#carousel").slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 1,
+          centerMode: true,
+          variableWidth: true
+        });
+      </script>
+      <!-- <script type="text/javascript" src="index-js/wow.min.js"></script> -->
+      <script type="text/javascript" src="../wow.min.js"></script>
+
+      <script>
+        new WOW().init();
+      </script>
   </body>
 </html>

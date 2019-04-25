@@ -39,6 +39,8 @@
     }
   },
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.9.0",
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
   }
 }

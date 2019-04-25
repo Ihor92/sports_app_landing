@@ -37,12 +37,6 @@ body {
   margin: 0 auto;
 }
 
-/*.general_section,
-.section_football_app,
-.user_experience_interface {
-  margin-left: 15px;
-}*/
-
 .subtitles {
   font-family: var(--font_lato);
   font-size: 28px;
