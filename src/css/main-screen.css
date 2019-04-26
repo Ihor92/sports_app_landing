@@ -1,5 +1,6 @@
 .main-section {
-  background: url(../img/bg-first_section.png);
+  background-image: url(../img/bg-first_section.png);
+  background-color: #f4f6f9;
   background-repeat: no-repeat;
   background-position: 100% 0%;
   height: 100vh;
