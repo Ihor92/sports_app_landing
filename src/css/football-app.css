@@ -203,6 +203,6 @@ input:checked[type="checkbox"]::before {
   color: var(--color_blue);
 }
 
-.football-app__more:hore {
+.football-app__more:hover {
   color: #00318a;
 }
