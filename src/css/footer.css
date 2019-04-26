@@ -22,6 +22,7 @@
   text-decoration: none;
   font-family: var(--font_lato);
   font-weight: bold;
+  padding-top: 1px;
 }
 
 .footer__nav-links:nth-child(-n+3) {
