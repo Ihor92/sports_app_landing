@@ -1,4 +1,4 @@
-.user_experience_interface {
+x`.user_experience_interface {
   overflow: hidden;
 }
 
@@ -43,7 +43,6 @@
   font-weight: bold;
   line-height: 21px;
   display: block;
-  letter-spacing: 1px;
 }
 
 .block-circle {
