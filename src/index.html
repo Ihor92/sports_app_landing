@@ -83,39 +83,41 @@
       </div>
     </section>
     <section class="user_experience_interface">
-      <div class="user_interface__block">
-        <span class="get-started">Get started</span>
-        <h2 class="subtitles">User-friendly Interface</h2>
-        <p class="user_interface__text">The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.</p>
-        <p class="user_interface__text user_interface__text-more">So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.</p>
-        <a href="javascript:void(0)" class="football_app__learn-more wow slideInLeft">Learn more</a>
-      </div>
+      <div class="user-interface__wrap">
+        <div class="user_interface__block">
+          <span class="get-started">Get started</span>
+          <h2 class="subtitles">User-friendly Interface</h2>
+          <p class="user_interface__text">The in-game goal clips from every Premier League match are available to Guardian TV customers with a Guardian subscription.</p>
+          <p class="user_interface__text user_interface__text-more">So, if you’re not a subscriber, now’s the time to make that savvy call. If that’s a step too far for you, you can still watch loads of firecracker Premier League action as long as you sign in with a free Guardian iD.</p>
+          <a href="javascript:void(0)" class="football_app__learn-more wow slideInLeft">Learn more</a>
+        </div>
 
-      <div class="block-circle">
-        <div class="main_circle">
-          <div class="first_circle"></div>
-          <div class="second_circle"></div>
-          <!-- block for rotation -->
-          <div class="second_circle__rotate">
-            <div class="dot-rotate">
-              <div class="dot-rotate__blue"></div>
+        <div class="block-circle">
+          <div class="main_circle">
+            <div class="first_circle"></div>
+            <div class="second_circle"></div>
+            <!-- block for rotation -->
+            <div class="second_circle__rotate">
+              <div class="dot-rotate">
+                <div class="dot-rotate__blue"></div>
+              </div>
             </div>
-          </div>
 
-          <div class="third_circle">
-            <div class="missed_notifications wow zoomIn">
-              <img src="img/Icons/baseline-notifications_active__black.svg" alt="" class="missed_notifications__img">
+            <div class="third_circle">
+              <div class="missed_notifications wow zoomIn">
+                <img src="img/Icons/baseline-notifications_active__black.svg" alt="" class="missed_notifications__img">
+              </div>
+              <div class="sum_notifications wow zoomIn">
+                <span class="sum_notifications__number">7</span>
+              </div>
             </div>
-            <div class="sum_notifications wow zoomIn">
-              <span class="sum_notifications__number">7</span>
+            <div class="open-app wow zoomIn">
+              <a href="javascript: void(0)" class="open-app__link">
+                <img src="img/Icons/add_to_home_screen__black.svg" alt="">
+              </a>
             </div>
+            <img src="img/Phone-User_friendly.png" alt="Result match Wigan vs Liverpool" class="phone-user_friendly">
           </div>
-          <div class="open-app wow zoomIn">
-            <a href="javascript: void(0)" class="open-app__link">
-              <img src="img/Icons/add_to_home_screen__black.svg" alt="">
-            </a>
-          </div>
-          <img src="img/Phone-User_friendly.png" alt="Result match Wigan vs Liverpool" class="phone-user_friendly">
         </div>
       </div>
     </section>
@@ -374,15 +376,15 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
     <script type="text/javascript" src="index-js/slick.js"></script>
-    <script>
-      $("#carousel").slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1,
-        centerMode: true,
-        variableWidth: true
-      });
+    <script src="index-js/main.js">
+      // $("#carousel").slick({
+      //   dots: true,
+      //   infinite: true,
+      //   speed: 300,
+      //   slidesToShow: 1,
+      //   centerMode: true,
+      //   variableWidth: true
+      // });
     </script>
 
     <script type="text/javascript" src="../lib/wow.min.js"></script>

@@ -1,12 +1,15 @@
 .user_experience_interface {
-  display: flex;
+  overflow: hidden;
+}
+
+.user-interface__wrap {
   max-width: 1116px;
   margin: 0 auto 171px;
   position: relative;
 }
 
 .user_interface__block {
-  width: 490px;
+  width: 44%;
 }
 
 .get-started {
@@ -45,8 +48,9 @@
 
 .block-circle {
   position: absolute;
-  top: -49px;
-  left: 470px;
+  bottom: -210px;
+  left: 476px;
+  overflow: hidden;
 }
 
 .main_circle {
@@ -58,20 +62,22 @@
   height: 800px;
   border: 0.5px solid #00adee36;
   border-radius: 50%;
+  box-sizing: border-box;
 }
 
 .second_circle {
-  width: 600px;
+  width: 75%;
   height: 600px;
   border: 2px dashed var(--color_blue);
   border-radius: 50%;
   position: absolute;
   left: 103px;
   top: 100px;
+  box-sizing: border-box;
 }
 
 .second_circle__rotate {
-  width: 600px;
+  width: 75%;
   height: 600px;
   border-radius: 50%;
   position: absolute;
@@ -114,7 +120,7 @@
 
 /*content*/
 .third_circle {
-  width: 400px;
+  width: 50%;
   height: 400px;
   border: 2px dashed var(--color_blue);
   border-radius: 50%;
@@ -122,6 +128,7 @@
   position: absolute;
   top: 200px;
   left: 200px;
+  box-sizing: border-box;
 }
 
 .missed_notifications {
