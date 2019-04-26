@@ -19,6 +19,26 @@
   padding: 0 0 63px;
 }
 
+.carousel__gradient-left {
+  position: relative;
+  top: 177px;
+  left: 85px;
+  background: linear-gradient(90deg, #fff, rgba(0, 0, 0, 0));
+  width: 309px;
+  height: 161px;
+  z-index: 10;
+}
+
+.carousel__gradient-right {
+  position: relative;
+  bottom: 233px;
+  left: 1047px;
+  background: linear-gradient(270deg, #fff, rgba(0, 0, 0, 0));
+  width: 309px;
+  height: 161px;
+  z-index: 10;
+}
+
 .carousel-list {
   max-width: 309px;
   height: 161px;
