@@ -45,6 +45,10 @@ x`.user_experience_interface {
   display: block;
 }
 
+.football_app__learn-more:hover {
+  color: #00318a;
+}
+
 .block-circle {
   position: absolute;
   bottom: -210px;
