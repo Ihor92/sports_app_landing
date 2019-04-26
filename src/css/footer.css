@@ -23,10 +23,8 @@
   font-family: var(--font_lato);
   font-weight: bold;
   padding-top: 1px;
-}
-
-.footer__nav-links:nth-child(-n+3) {
   padding-right: 37px;
+  padding: 1 px 37px 0 0;
 }
 
 .footer__list-links {
