@@ -16,7 +16,6 @@
 
   color: var(--color_titles);
   text-align: center;
-  padding: 0 0 63px;
 }
 
 .carousel__gradient-left {
@@ -31,8 +30,8 @@
 
 .carousel__gradient-right {
   position: relative;
-  bottom: 233px;
-  left: 1047px;
+  bottom: 176px;
+  left: 997px;
   background: linear-gradient(270deg, #fff, rgba(0, 0, 0, 0));
   width: 309px;
   height: 161px;
