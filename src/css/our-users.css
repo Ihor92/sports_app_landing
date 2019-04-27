@@ -21,9 +21,9 @@
 .carousel__gradient-left {
   position: relative;
   top: 177px;
-  left: 85px;
-  background: linear-gradient(90deg, #fff, rgba(0, 0, 0, 0));
-  width: 309px;
+  left: 97px;
+  background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.7));
+  width: 150px;
   height: 161px;
   z-index: 10;
 }
@@ -32,8 +32,8 @@
   position: relative;
   bottom: 176px;
   left: 1000px;
-  background: linear-gradient(270deg, #fff, rgba(0, 0, 0, 0));
-  width: 309px;
+  background: linear-gradient(270deg, #fff, rgba(255, 255, 255, 0.7));
+  width: 150px;
   height: 161px;
   z-index: 10;
 }
