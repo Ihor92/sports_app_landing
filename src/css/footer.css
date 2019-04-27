@@ -45,3 +45,7 @@
 .footer__network:first-child {
   margin-left: 0;
 }
+
+.footer__network-links {
+  display: block;
+}
