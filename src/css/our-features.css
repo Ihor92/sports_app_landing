@@ -17,7 +17,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 65px 0 0;
+}
+
+.our-features__block:first-child {
+  padding-top: 65px;
 }
 
 .our-features__list {
@@ -25,10 +28,14 @@
   font-family: var(--font_lato);
   width: 311px;
   padding-bottom: 50px;
-}
+  }
 
 .our-features__list img {
   padding-bottom: 10px;
+}
+
+.our-features__list-wrap {
+  height: 40px;
 }
 
 .our-features__paragraph::before {
