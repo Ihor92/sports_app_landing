@@ -1,4 +1,4 @@
-.user_experience_interface {
+.user-experience__interface {
   overflow: hidden;
 }
 
@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.user_interface__block {
+.user-interface__block {
   width: 44%;
 }
 
@@ -22,7 +22,7 @@
   text-transform: uppercase;
 }
 
-.user_interface__text {
+.user-interface__text {
   max-width: 97%;
   line-height: 23px;
   font-family: var(--font_lato);
@@ -30,12 +30,12 @@
   letter-spacing: 0.09px;
 }
 
-.user_interface__text-more {
+.user-interface__text-more {
   padding-top: 23px;
   letter-spacing: 0.17px;
 }
 
-.football_app__learn-more {
+.football-app__learn-more {
   text-decoration: none;
   padding-top: 56px;
   color: var(--color_blue);
@@ -45,7 +45,7 @@
   display: block;
 }
 
-.football_app__learn-more:hover {
+.football-app__learn-more:hover {
   color: #00318a;
 }
 
@@ -60,7 +60,7 @@
   position: relative;
 }
 
-.first_circle {
+.first-circle {
   width: 800px;
   height: 800px;
   border: 0.5px solid #00adee36;
@@ -68,7 +68,7 @@
   box-sizing: border-box;
 }
 
-.second_circle {
+.second-circle {
   width: 75%;
   height: 600px;
   border: 2px dashed var(--color_blue);
@@ -79,7 +79,7 @@
   box-sizing: border-box;
 }
 
-.second_circle__rotate {
+.second-circle__rotate {
   width: 75%;
   height: 600px;
   border-radius: 50%;
@@ -122,7 +122,7 @@
 }
 
 /*content*/
-.third_circle {
+.third-circle {
   width: 50%;
   height: 400px;
   border: 2px dashed var(--color_blue);
@@ -134,7 +134,7 @@
   box-sizing: border-box;
 }
 
-.missed_notifications {
+.missed-notifications {
   width: 91px;
   height: 91px;
   box-shadow: var(--box-shadow);
@@ -147,17 +147,11 @@
   display: flex;
 }
 
-.missed_notifications__img {
+.missed-notifications__img {
   margin: 0 auto;
 }
 
-.missed_notifications__img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sum_notifications {
+.sum-notifications {
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -171,7 +165,7 @@
   align-items: center;
 }
 
-.sum_notifications__number {
+.sum-notifications__number {
   margin: 0 auto;
 }
 
