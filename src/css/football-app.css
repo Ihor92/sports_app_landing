@@ -61,7 +61,7 @@
 .preview_match {
   position: absolute;
   z-index: 10;
-  top: 109px;
+  top: 119px;
   left: -25px;
 
   width: 358px;
@@ -79,7 +79,7 @@
 .preview_match_imeges {
   width: 145px;
   position: relative;
-  margin: 46px auto 0;
+  margin: 46px 0 0 82px;
 }
 
 .chelsea-fc__img {
@@ -93,7 +93,7 @@
 }
 
 .preview_match_footer {
-  padding: 12px 0 10px;
+  padding: 0px 0 10px;
   background: #eee;
 }
 
@@ -155,12 +155,12 @@ input:checked[type="checkbox"]::before {
 
 .arsenal_vs_chelsea {
   position: absolute;
-  top: 294px;
+  top: 299px;
   left: 83px;
 }
 
 .description_match-block {
-  margin-top: 130px;
+  margin-top: 142px;
 }
 
 .description_match-text {
